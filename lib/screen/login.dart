@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:firstapp/styles/colors.dart';
 
 class Login extends StatelessWidget {
   const Login({super.key});
@@ -7,8 +8,8 @@ class Login extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: true,
-      backgroundColor: Color(0xff7E81D4),
-      appBar: AppBar(backgroundColor: Color(0xff7E81D4)),
+      backgroundColor: primary,
+      appBar: AppBar(backgroundColor: primary),
 
       body: SafeArea(
         child: SingleChildScrollView(
@@ -68,7 +69,7 @@ class Login extends StatelessWidget {
                   decoration: InputDecoration(
                     border: OutlineInputBorder(),
                     filled: true,
-                    fillColor: Color(0xffF4F4F4),
+                    fillColor: quartenary,
                     contentPadding: EdgeInsets.symmetric(horizontal: 12.0),
                   ),
                 ),
@@ -92,7 +93,7 @@ class Login extends StatelessWidget {
                   decoration: InputDecoration(
                     border: OutlineInputBorder(),
                     filled: true,
-                    fillColor: Color(0xffF4F4F4),
+                    fillColor: quartenary,
                     contentPadding: EdgeInsets.symmetric(horizontal: 12.0),
                   ),
                 ),
@@ -115,7 +116,7 @@ class Login extends StatelessWidget {
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(5),
                     ),
-                    backgroundColor: Color(0xff4D4299),
+                    backgroundColor: details,
                   ),
                   child: Text(
                     "Login",

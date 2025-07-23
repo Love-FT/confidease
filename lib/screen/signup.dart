@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:firstapp/styles/colors.dart';
 
 class Signup extends StatefulWidget {
   @override
@@ -10,8 +11,8 @@ class _SignupState extends State<Signup> {
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: true,
-      backgroundColor: Color(0xffFFF7D0),
-      appBar: AppBar(backgroundColor: Color(0xffFFF7D0)),
+      backgroundColor: tertiary,
+      appBar: AppBar(backgroundColor: tertiary),
 
       body: SafeArea(
         child: SingleChildScrollView(
@@ -70,7 +71,7 @@ class _SignupState extends State<Signup> {
                   decoration: InputDecoration(
                     border: OutlineInputBorder(),
                     filled: true,
-                    fillColor: Color(0xffF4F4F4),
+                    fillColor: quartenary,
                     contentPadding: EdgeInsets.symmetric(horizontal: 12.0),
                   ),
                 ),
@@ -93,7 +94,7 @@ class _SignupState extends State<Signup> {
                   decoration: InputDecoration(
                     border: OutlineInputBorder(),
                     filled: true,
-                    fillColor: Color(0xffF4F4F4),
+                    fillColor: quartenary,
                     contentPadding: EdgeInsets.symmetric(horizontal: 12.0),
                   ),
                 ),
@@ -116,7 +117,7 @@ class _SignupState extends State<Signup> {
                   decoration: InputDecoration(
                     border: OutlineInputBorder(),
                     filled: true,
-                    fillColor: Color(0xffF4F4F4),
+                    fillColor: quartenary,
                     contentPadding: EdgeInsets.symmetric(horizontal: 12.0),
                   ),
                 ),
@@ -184,7 +185,7 @@ class _SignupState extends State<Signup> {
                   decoration: InputDecoration(
                     border: OutlineInputBorder(),
                     filled: true,
-                    fillColor: Color(0xffF4F4F4),
+                    fillColor: quartenary,
                     contentPadding: EdgeInsets.symmetric(horizontal: 12.0),
                   ),
                 ),
@@ -208,7 +209,7 @@ class _SignupState extends State<Signup> {
                   decoration: InputDecoration(
                     border: OutlineInputBorder(),
                     filled: true,
-                    fillColor: Color(0xffF4F4F4),
+                    fillColor: quartenary,
                     contentPadding: EdgeInsets.symmetric(horizontal: 12.0),
                   ),
                 ),
@@ -231,13 +232,13 @@ class _SignupState extends State<Signup> {
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(5),
                     ),
-                    backgroundColor: Color(0xffF7C020),
+                    backgroundColor: secondary,
                   ),
 
                   child: Text(
                     "Sign Up",
                     style: TextStyle(
-                      color: Color(0xff4D4299),
+                      color: details,
                       // fontWeight: FontWeight.w400,
                       fontFamily: 'Sora',
                       fontSize: 14,

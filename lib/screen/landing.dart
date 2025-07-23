@@ -1,6 +1,7 @@
 import 'package:firstapp/screen/login.dart';
 import 'package:firstapp/screen/signup.dart';
 import 'package:flutter/material.dart';
+import 'package:firstapp/styles/colors.dart';
 
 class FirstScreen extends StatelessWidget {
   @override
@@ -34,7 +35,7 @@ class FirstScreen extends StatelessWidget {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(5),
                 ),
-                backgroundColor: Color(0xff4D4299),
+                backgroundColor: details,
               ),
               child: Text(
                 "Login",
@@ -64,12 +65,12 @@ class FirstScreen extends StatelessWidget {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(5),
                 ),
-                backgroundColor: Color(0xffF7C020),
+                backgroundColor: secondary,
               ),
               child: Text(
                 "Sign Up",
                 style: TextStyle(
-                  color: Color(0xff4D4299),
+                  color: details,
                   // fontWeight: FontWeight.w400,
                   fontFamily: 'Sora',
                   fontSize: 18,
@@ -79,7 +80,7 @@ class FirstScreen extends StatelessWidget {
           ),
         ],
       ),
-      backgroundColor: Color(0xff7E81D4),
+      backgroundColor: primary,
     );
   }
 }
