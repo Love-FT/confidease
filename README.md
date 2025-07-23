@@ -1,6 +1,7 @@
-# firstapp
+# confidEase
 
-A new Flutter project.
+This is our Capstone project called ConfidEase.
+ConfidEase is an app designed for public speaking skill assessment.
 
 ## Getting Started
 
