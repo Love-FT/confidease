@@ -53,9 +53,6 @@ class _SignupState extends State<Signup> {
                 ),
               ),
 
-              // Column(
-              //   // crossAxisAlignment: CrossAxisAlignment.center,
-              //   children: [
               Container(
                 margin: EdgeInsets.only(top: 20),
                 width: 300,
@@ -250,8 +247,6 @@ class _SignupState extends State<Signup> {
                   ),
                 ),
               ),
-              //   ],
-              // ),
             ],
           ),
         ),

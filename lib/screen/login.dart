@@ -51,8 +51,6 @@ class Login extends StatelessWidget {
                 ),
               ),
 
-              // Column(
-              //   children: [
               Container(
                 margin: EdgeInsets.only(top: 50),
                 width: 300,
@@ -130,8 +128,6 @@ class Login extends StatelessWidget {
                   ),
                 ),
               ),
-              //   ],
-              // ),
             ],
           ),
         ),
