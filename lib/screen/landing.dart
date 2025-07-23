@@ -1,7 +1,7 @@
-import 'package:firstapp/screen/login.dart';
-import 'package:firstapp/screen/signup.dart';
+import 'package:confidease/screen/login.dart';
+import 'package:confidease/screen/signup.dart';
 import 'package:flutter/material.dart';
-import 'package:firstapp/styles/colors.dart';
+import 'package:confidease/styles/colors.dart';
 
 class FirstScreen extends StatelessWidget {
   @override

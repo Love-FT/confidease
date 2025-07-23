@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:firstapp/styles/colors.dart';
+import 'package:confidease/styles/colors.dart';
 
 class Signup extends StatefulWidget {
   @override

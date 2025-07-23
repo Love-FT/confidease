@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:firstapp/screen/landing.dart';
+import 'package:confidease/screen/landing.dart';
 
 //material.io/components
 //material.io/color
